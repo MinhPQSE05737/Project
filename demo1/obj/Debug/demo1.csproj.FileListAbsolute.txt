@@ -1,0 +1,6 @@
+C:\Users\phamv\Desktop\C#\C# PROJECT\demo1\demo1\bin\demo1.dll.config
+C:\Users\phamv\Desktop\C#\C# PROJECT\demo1\demo1\bin\demo1.dll
+C:\Users\phamv\Desktop\C#\C# PROJECT\demo1\demo1\bin\demo1.pdb
+C:\Users\phamv\Desktop\C#\C# PROJECT\demo1\demo1\obj\Debug\demo1.csprojResolveAssemblyReference.cache
+C:\Users\phamv\Desktop\C#\C# PROJECT\demo1\demo1\obj\Debug\demo1.dll
+C:\Users\phamv\Desktop\C#\C# PROJECT\demo1\demo1\obj\Debug\demo1.pdb

@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="demo1.MasterPage.Layout" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Layout</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css?h=ba1be5a30608166899edec996affcd0f">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+        <link rel="stylesheet" href="../assets/css/Animated-Pretty-Product-List-v12.css">
+        <link rel="stylesheet" href="../assets/css/Carousel-Hero.css">
+        <link rel="stylesheet" href="../assets/css/Pretty-Footer.css">
+        <link rel="stylesheet" href="../assets/css/sticky-dark-top-nav-with-dropdown.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/block-heading.css">
+        <link rel="stylesheet" href="../assets/css/formSearch.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-fixed-top navigation-clean-button">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><span>FPT Book Store </span> </a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto nav-right">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="home.aspx">Home</a></li>
+                    
+                    <li> 
+        </div>
+  							<input type="text" placeholder="Search.." name="search2">
+  							<button type="submit"><i class="fa fa-search"></i></button>
+				    </li>
+				    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">List Books</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Abouts</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Abouts</a></li>
+                </ul>
+                <a class="ml-auto" href="shopping-cart.html"><i class="fa fa-shopping-cart" style="font-size:30px;"></i></a>
+                <p class="ml-auto navbar-text actions"><a href="login_sign_up.html" class="login">Log In</a> <a class="btn btn-light action-button" role="button" href="login_sign_up.html">Sign Up</a></p>
+        </div>
+        </div>
+    </nav>
+    <div class="carousel slide" data-ride="carousel" id="carousel-1" style="padding-top:75px;">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="jumbotron hero-nature carousel-hero">
+                    <h1 class="hero-title">SALE 50% for novels</h1>
+                    <p class="hero-subtitle">Sign in right now to get sales off!!!</p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Sign in</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-photography carousel-hero">
+                    <h1 class="hero-title">Hero Photography</h1>
+                    <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron hero-technology carousel-hero">
+                    <h1 class="hero-title">Hero Technology</h1>
+                    <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+        <ol
+            class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+    </div>
+
+
+
+       
+
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+
+
+                        </asp:ContentPlaceHolder>
+
+
+
+       
+
+
+     <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-navigation">
+                <h3><a href="#">Company<span>logo </span></a></h3>
+                <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Blog</a><strong> · </strong><a href="#">Pricing</a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Faq</a><strong> · </strong><a href="#">Contact</a></p>
+                <p class="company-name">Company Name © 2015 </p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">21 Revolution Street</span> Paris, France</p>
+                </div>
+                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-left"> +1 555 123456</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="#" target="_blank">support@company.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 footer-about">
+                <h4>About the company</h4>
+                <p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet. </p>
+                <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Animated-Pretty-Product-List-v12.js"></script>
+    <script src="assets/js/index.js"></script>
+    </div>
+    </form>
+</body>
+</html>
